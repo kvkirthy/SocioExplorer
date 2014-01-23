@@ -1,0 +1,24 @@
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.a-row{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+input
+{
+-moz-border-radius:10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Chrome */
+-khtml-border-radius: 10px; /* KHTML */
+border-radius: 10px; /* CSS3 */
+behavior:url("border-radius.htc");
+}

@@ -3,17 +3,25 @@
 	<head>
 		<title>Socio Explorer!</title>
 	    <link rel="stylesheet" type="text/css" href="lib/dist/css/bootstrap.css">
+	    <link rel="stylesheet" type="text/css" href="../resources/css/custom.css">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <script src="lib/angular.js"></script>
-	    <script src="lib/angular-route.js"></script>
-	    <script src="js/main.js"></script>
-	    <script src="js/storyListViewModel.js"></script>
-	    <script src="js/storyListViewController.js"></script>
-	    <script src="js/storyListDataAccessService.js"></script>
+
 	</head>
 
-	<body ng-app="socioExplorerMain">
-		<ng-view></ng-view>
+	<body ng-app="socioExplorerMain">				
+			<nav class="navbar navbar-inverse">
+				<a class="navbar-brand" href="#">Socio Explorer</a>
+			</nav>		
+			<ng-view></ng-view>
+
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="lib/angular.js"></script>
+	    <script src="lib/angular-route.js"></script>		   	
+	    <script src="js/main.js"></script>
+	    <script src="js/storyListViewController.js"></script>
+	    <script src="js/storyListViewModel.js"></script>
+	    <script src="js/storyListDataAccessService.js"></script>
+	    <script src="lib/dist/js/bootstrap.js"></script>
 	</body>
 
 </html>
