@@ -1,12 +1,19 @@
 <div class="container">
 	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 text-center"><input type="text" ng-model="filterText" /> </div>
-	</div>
-	
+		<div class="col-lg-12 col-md-12 col-sm-12 text-center"><input type="text" size="35" ng-model="filterText" /> </div>		
+	</div>	
+	<br/>	
 	<div ng-repeat="story in storyListArray | filter:filterText">
-		<div  class="row">			
-			<div class="col-md-6 col-sm-12 a-row">{{story.storyText}}</div>		
-			<div class="col-md-6 col-sm-12 a-row">{{story.dateTimeCreated}}</div>		
+		<div  class="row a-row">		
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="col-md-10 col-sm-10 col-xs-10 tightCell">
+					<div class="col-md-12 col-sm-12 tightCell">{{story.storyText}}</div>	
+					<div class="col-md-12 col-sm-12 tightCell">{{story.dateTimeCreated}}</div>	
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-2 tightCell text-right">
+					<button class="go-button"> </button>
+				</div>
+			</div>	
 		</div>
 	</div>
 </div>
