@@ -16,7 +16,7 @@ function storyListViewModel(storyText){
 		var storyListArray = [];
 		storyListArray.push(new storyListViewModel("Hello World. Here is Socio Explorer, coolest responsive app"));		
 		storyListArray.push(new storyListViewModel("I\'m a mobile application"));		
-		storyListArray.push(new storyListViewModel("I\'m a desktop application"));		
+		//storyListArray.push(new storyListViewModel("I\'m a desktop application"));		
 		storyListArray.push(new storyListViewModel("Member registration drive being conducted at kannamwar nagar, Vikhroli East."));		
 		storyListArray.push(new storyListViewModel(" Hi manishji. I have called school helpline thrice on a saturday and they have responded well each time. V impressed!"));		
 		storyListArray.push(new storyListViewModel());		
